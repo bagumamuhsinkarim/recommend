@@ -1,11 +1,11 @@
 import sys
 
-sys.path.append("/home/muhsin/Desktop/RecommendationLibrary/src")
+sys.path.append("/home/muhsin/Desktop/recommend")
 #print(sys.path)
 
-from recommendationengine import recommendationengine
-from recommendationengine import storageengine
-from recommendationengine import filteringengine
+from recommend import recommendationengine
+from recommend import storageengine
+from recommend import filteringengine
 
 def main():
     storage = storageengine.StorageEngine("./test/Data/data.json")

@@ -1,6 +1,6 @@
 #Users Class
-from recommendationengine.history import History
-from recommendationengine.location import Location
+from recommend.history import History
+from recommend.location import Location
 import json
 
 class User:

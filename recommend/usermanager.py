@@ -1,7 +1,7 @@
-from recommendationengine.user import User
+from recommend.user import User
 import json
-from recommendationengine.location import Location
-from recommendationengine.history import History
+from recommend.location import Location
+from recommend.history import History
 import os
 
 class UserManager:
