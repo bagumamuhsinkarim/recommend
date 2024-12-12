@@ -1,10 +1,10 @@
 import sys
 
-sys.path.append("/home/muhsin/Desktop/RecommendationLibrary/src")
+sys.path.append("/home/muhsin/Desktop/recommend")
 
-from recommendationengine.user import User
-from recommendationengine.history import History
-from recommendationengine.location import Location
+from recommend.user import User
+from recommend.history import History
+from recommend.location import Location
 
 #creating a user
 my_user = User("001")

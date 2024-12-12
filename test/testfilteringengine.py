@@ -1,9 +1,9 @@
 import sys
 
-sys.path.append("/home/muhsin/Desktop/RecommendationLibrary/src")
+sys.path.append("/home/muhsin/Desktop/recommend")
 
-from recommendationengine.filteringengine import FilteringEngine
-from recommendationengine.storageengine import StorageEngine
+from recommend.filteringengine import FilteringEngine
+from recommend.storageengine import StorageEngine
 #initializing a storage engine to provide us with data to manipulate
 storage = StorageEngine("./test/Data/storageData.json")
 

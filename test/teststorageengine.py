@@ -1,8 +1,8 @@
 import sys
 
-sys.path.append("/home/muhsin/Desktop/RecommendationLibrary/src")
+sys.path.append("/home/muhsin/Desktop/recommend")
 
-from recommendationengine.storageengine import StorageEngine
+from recommend.storageengine import StorageEngine
 
 #initialization of the Storage Engine
 storageEngine = StorageEngine()
