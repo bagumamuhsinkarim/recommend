@@ -355,3 +355,20 @@ Contains records in a user's history of a feature instance that they have viewed
 This class deals with registration of a user in the system
 
 Contains history of a user and the user id
+
+## Installation guide
+pip install recommends
+
+The command should enable installation of the project and a detail as shown below will appear.
+
+└─$ pip show recommends
+Name: recommends
+Version: 0.1.7
+Summary: A library to enable one program a personalised recommendation system.
+Home-page: https://github.com/bagumamuhsinkarim/recommend
+Author: BAGUMA MUSHIN KARIM
+Author-email: muhsinkarimbaguma@gmail.com
+License: 
+Location: /home/muhsin/myenv/lib/python3.12/site-packages
+Requires: 
+Required-by: 
